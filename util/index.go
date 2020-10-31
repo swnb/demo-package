@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func Compare(a ...interface{}) bool {
+func Compare(a ...interface{}) string {
 	for i, v := range a {
 		if v == nil {
 			fmt.Println("nil")
@@ -18,5 +18,5 @@ func Compare(a ...interface{}) bool {
 			}
 		}
 	}
-	return true
+	return "fsdfsd"
 }
