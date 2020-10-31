@@ -5,5 +5,5 @@ import (
 )
 
 func Compare(a ...interface{}) {
-	fmt.Println("v1.1.1")
+	fmt.Println("v2.1.1")
 }
