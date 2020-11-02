@@ -3,6 +3,8 @@ package util
 import (
 	"fmt"
 	"reflect"
+
+	"github.com/swnb/demo-package/internal"
 )
 
 func Compare(a ...interface{}) string {
@@ -18,5 +20,5 @@ func Compare(a ...interface{}) string {
 			}
 		}
 	}
-	return "fsdfsd"
+	return internal.Foo()
 }
